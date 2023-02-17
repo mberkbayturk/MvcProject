@@ -16,7 +16,7 @@ namespace EntityLayer.Concrete
         public string CategoryName { get; set; }
 
         [StringLength(200)]
-        public string CategoryDesription { get; set; }
+        public string CategoryDescription { get; set; }
 
         public bool CategoryStatus { get; set; }
 
